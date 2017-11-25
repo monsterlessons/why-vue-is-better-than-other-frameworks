@@ -1,0 +1,23 @@
+<html>
+  <head>
+      <title>Test</title>
+  </head>
+  <body>
+    <form class='login-form' @submit.prevent='onSubmit'>
+      <h3>Login form</h3>
+      <div>
+        <label>Email</label>
+        <input type='text' v-model='email' />
+      </div>
+      <div>
+        <label>Password</label>
+        <input type='password' v-model='password' />
+      </div>
+      <div>
+        <input type='submit' value='Login' />
+      </div>
+    </form>
+    <script src='https://cdn.jsdelivr.net/npm/vue'></script>
+    <script src='code.js'></script>
+  </body>
+</html>
